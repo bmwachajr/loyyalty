@@ -1,0 +1,2 @@
+# loyyalty
+lot=yalty
