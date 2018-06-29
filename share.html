@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+	<script src="jquery.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<a href="index.html" data-rel="back" class="ui-btn ui-btn-left ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-carat-l">Back</a>
+        <h1>Loyyalty</h1>
+    </div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>Add a loyyalty card</p>
+
+		<div>
+			<img src="img/album-hc.jpg">
+			<form>
+				<select name="select-choice-a" id="select-choice-a" data-native-menu="false">
+				    <option>Supermarket</option>
+				    <option value="standard">Nakumatt</option>
+				    <option value="rush">Uchumi</option>
+				</select>
+				<label for="textinput-2">Points to share</label>
+				<input type="text" name="textinput-2" id="textinput-2" placeholder="Card Name" value="">
+				<label for="textinput-2">Persons Loyyalty code</label>
+				<input type="text" name="textinput-2" id="textinput-2" placeholder="Number" value="">
+			</form>
+		</div>
+
+		<div>
+			<div class="ui-grid-solo">
+			    <div class="ui-block-a"><input type="button" value="Share my points"></div>
+			</div>
+		</div>
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
